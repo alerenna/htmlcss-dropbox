@@ -200,7 +200,7 @@ header
         i
         {
             position: absolute;
-            bottom: 0;
+            bottom: 1rem;
             font-size: 2rem;
             color: var(--dp-var-bg);
         }
@@ -214,6 +214,74 @@ header
     }
 
 }
+
+.container-small
+{
+    padding-top: 5rem;
+
+    h2
+    {
+        font-size: 20px;
+        padding-bottom: 2rem;
+    }
+
+    .name-column
+    {
+        border: 0.25px solid;
+        border-bottom: 0px;
+        padding: 0.5rem 1rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .content-column
+    {
+        border: 0.25px solid;
+        padding: 2rem 1rem;
+        flex-direction: column;
+        gap: 1rem;
+
+        h3
+        {
+            font-size: 16px;
+        }
+
+        .price
+        {
+            font-weight: bold;
+        }
+
+        .mese
+        {
+            font-weight: lighter;
+            color: rgb(98, 98, 98);
+            margin-bottom: 2rem;
+        }
+
+        .btn
+        {
+            text-align: center;
+            padding: 1rem 1.5rem;
+            margin-top: 2rem;
+        }
+
+        hr
+        {
+            width: 20%;
+            margin: 2rem 0rem;
+        }
+
+        .check
+        {
+            color: var(--dp-var-primary);
+            font-size:1.4rem;
+        }
+    }
+
+    
+}
+
+
 
 
 
