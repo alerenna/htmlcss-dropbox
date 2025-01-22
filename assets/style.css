@@ -6,17 +6,176 @@
     box-sizing: border-box;
 }
 
+:root
+{
+    --dp-var-primary: #0061FE;
+    --dp-var-primary-soft: #B4D0E6;
+    --dp-var-bg: #000000;
+    --dp-var-bg: #FFFFFF;
+}
+
+
 .debug
 {
+    *
+    {
+        border: 1px dashed;
+    }
 
+    .container-big
+    {
+        background-color: rgba(0, 0, 255, 0.423);
+    }
+
+    .container-small
+    {
+        background-color: rgba(0, 255, 30, 0.423);
+    }
+
+    header
+    {
+        background-color: rgb(191, 191, 191);
+
+        .nav
+        {
+            background-color: #d9d9d9;
+        }
+
+        .nav-left
+        {
+            background-color: rgba(128, 0, 128, 0.363);
+        }
+
+        .nav-right
+        {
+            background-color: rgba(128, 0, 128, 0.363);
+        }
+
+        .menu
+        {
+            background-color: aqua;
+        }
+    }
 }
 /* endregion Common */
 
 /* region Layout */
 
+.container-big
+{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-small
+{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+[class^="col"]
+{
+  padding: 1rem;
+}
+
+.col-1
+{
+  width: calc(100% / 12 * 1);
+}
+
+.col-2
+{
+  width: calc(100% / 12 * 2);
+}
+
+.col-3
+{
+  width: calc(100% / 12 * 3);
+}
+
+.col-4
+{
+  width: calc(100% / 12 * 4);
+}
+
+.col-5
+{
+  width: calc(100% / 12 * 5);
+}
+
+.col-6
+{
+  width: 50%;
+}
+
+.col-7
+{
+  width: calc(100% / 12 * 7);
+}
+
+.col-8
+{
+  width: calc(100% / 12 * 8);
+}
+
+.col-9
+{
+  width: calc(100% / 12 * 9);
+}
+
+.col-10
+{
+  width: calc(100% / 12 * 10);
+}
+
+.col-11
+{
+  width: calc(100% / 12 * 11);
+}
+
+.col-12
+{
+  width: 100%;
+}
+
+
 /* endregion Layout */
 
+/* region Buttons */
+.btn
+{
+  display: inline-block;
+  text-decoration: none;
+  color: var();
+  background-color: var(--dp-var-primary);
+  padding: 0.5rem 0.75rem;
+}
+/* region Buttons */
+
 /* region Header */
+header
+{
+    nav
+    {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul
+    {
+        list-style: none;
+        display: flex;
+        gap: 0.5rem;
+    }
+    }
+}
 
 /* endregion Header */
 
