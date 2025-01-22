@@ -14,6 +14,12 @@
     --dp-var-bg: #FFFFFF;
 }
 
+.d-flex
+{
+    display: flex;
+}
+
+
 
 .debug
 {
@@ -55,7 +61,34 @@
         {
             background-color: aqua;
         }
+
+        
     }
+
+    .jumbotron
+    {
+        background-color: #0061FE;
+
+        .jumbotron-title
+        {
+            height: 50px;
+            background-color: rgba(223, 50, 223, 0.625);
+        }
+
+        .
+        {
+            height: 345px;
+            background-color: #B4D0E6;
+        }
+
+        .jumbo
+        {
+            height: 345px;
+            background-color: pink;
+        }
+    }
+
+   
 }
 /* endregion Common */
 
@@ -188,7 +221,6 @@ header
     }
     }
 }
-
 /* endregion Header */
 
 /* region Main */
