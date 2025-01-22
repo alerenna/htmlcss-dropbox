@@ -155,37 +155,43 @@ header
 
     nav
     {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .logo
-    {
-        width: 8rem;
-    }
-
-    .nav-left, .nav-right
-    {
-        gap: 1rem;
-    }
-
-    ul
-    {
-        list-style: none;
         display: flex;
-        gap: 1rem;
+        justify-content: space-between;
+        align-items: center;
 
-        :hover
+        .logo
         {
-            text-decoration: underline;
-            text-underline-offset: 1.4rem;
+            width: 8rem;
         }
-    }
 
-    li
-    {
-        color: var(--dp-var-bg);
-    }
+        .nav-left, .nav-right
+        {
+            gap: 1rem;
+        }
+
+        ul
+        {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+
+            li
+            {
+                color: var(--dp-var-bg);
+
+                a
+                {
+                    text-decoration: none;
+                    color: var(--dp-var-bg);
+                }
+            }
+
+            :hover
+            {
+                text-decoration: underline;
+                text-underline-offset: 1.4rem;
+            }
+        }
 
     }
 }
