@@ -75,12 +75,6 @@
             background-color: rgba(223, 50, 223, 0.625);
         }
 
-        .
-        {
-            height: 345px;
-            background-color: #B4D0E6;
-        }
-
         .jumbo
         {
             height: 345px;
@@ -102,7 +96,7 @@
 
 .container-small
 {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
