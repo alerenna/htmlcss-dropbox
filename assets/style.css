@@ -153,7 +153,7 @@
 {
   display: inline-block;
   text-decoration: none;
-  color: var();
+  color: white;
   background-color: var(--dp-var-primary);
   padding: 0.5rem 0.75rem;
 }
@@ -162,17 +162,29 @@
 /* region Header */
 header
 {
+    padding: 1rem 0.5rem;
+
     nav
     {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+    .nav-left, .nav-right
+    {
+        gap: 1rem;
+    }
+
     ul
     {
         list-style: none;
         display: flex;
-        gap: 0.5rem;
+        gap: 1rem;
+    }
+
+    li
+    {
+        color: white;
     }
     }
 }
