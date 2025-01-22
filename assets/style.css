@@ -137,8 +137,15 @@
   color: white;
   background-color: var(--dp-var-primary);
   padding: 0.25rem 0.75rem;
+
+  
 }
-/* region Buttons */
+
+:hover.btn
+  {
+      background-color: #0061fec7;
+  }
+/* endregion Buttons */
 
 /* region Header */
 header
@@ -167,12 +174,19 @@ header
         list-style: none;
         display: flex;
         gap: 1rem;
+
+        :hover
+        {
+            text-decoration: underline;
+            text-underline-offset: 1.4rem;
+        }
     }
 
     li
     {
         color: var(--dp-var-bg);
     }
+
     }
 }
 /* endregion Header */
