@@ -27,20 +27,6 @@ body
     display: flex;
 }
 
-.debug
-{
-    *
-    {
-        border: 1px dashed;
-    }
-
-    .container-small
-    {
-        background-color: rgba(0, 255, 30, 0.423);
-    }
-
-   
-}
 /* endregion Common */
 
 /* region Layout */
@@ -57,6 +43,11 @@ body
     width: 70%;
     margin: 0 auto;
     max-width: 992px;
+
+    .section-title
+    {
+        margin-top: 10rem;
+    }
 }
 
 .row
@@ -142,8 +133,6 @@ body
   color: white;
   background-color: var(--dp-var-primary);
   padding: 0.25rem 0.75rem;
-
-  
 }
 
 :hover.btn
@@ -242,7 +231,6 @@ header
 
 .container-small
 {
-    padding-top: 10rem;
 
     h2
     {
@@ -365,6 +353,18 @@ footer
     li
     {
         color: white;
+    }
+}
+
+.card
+{
+    flex-direction: column;
+    gap: 1.5rem;
+
+
+    h3
+    {
+        font-size: 18px;
     }
 }
 /* endregion Footer */
