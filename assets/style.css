@@ -383,6 +383,13 @@ header
         text-align: center;
         padding: 0.75rem;
     }
+
+    :hover.btn
+  {
+      background-color: #0061fec7;
+      border-color: var(--dp-var-bg-light);
+      color: var(--dp-var-bg-light);
+  }
 }
 
 
