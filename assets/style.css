@@ -259,13 +259,13 @@ header
         {
             border: 0.25px solid;
             min-height: 94%;
-            padding: 2rem 1rem;
+            padding: 2rem 1.8rem;
             flex-direction: column;
-            gap: 1rem;
+            gap: 1.5rem;
 
-            .right
+            .card
             {
-                justify-items: right;
+                gap: 0px;
             }
     
             h3
@@ -288,7 +288,7 @@ header
             .btn
             {
                 text-align: center;
-                padding: 1rem 1.5rem;
+                padding: 0.75rem 0.5rem;
                 margin-top: 2rem;
             }
     
