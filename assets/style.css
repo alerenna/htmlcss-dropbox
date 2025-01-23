@@ -208,13 +208,13 @@ header
     .col-4
     {
         flex-direction: column;
-        gap: 20px;
+        gap: 2rem;
         position: relative;
 
         i
         {
             position: absolute;
-            bottom: 1rem;
+            bottom: 1px;
             font-size: 3.5rem;
             color: var(--dp-var-bg);
         }
@@ -225,6 +225,12 @@ header
             padding: 1rem 0.5rem;
         }
 
+    }
+
+    .jumbo
+    {
+        width: 100%;
+        margin-bottom: -7rem;
     }
 
 }
