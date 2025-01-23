@@ -263,10 +263,6 @@ header
             flex-direction: column;
             gap: 1.5rem;
 
-            .card
-            {
-                gap: 0px;
-            }
     
             h3
             {
@@ -304,6 +300,42 @@ header
                 font-size:1.4rem;
             }
     
+        }
+    }
+
+    .card
+    {
+        gap: 0;
+        
+        .content-column
+        {
+            flex-direction: row;
+            
+            .left
+            {
+                flex-direction: column;
+                gap: 1rem;
+                flex-grow: 2;
+
+                .price
+                {
+                    padding-bottom: 2rem;
+                }
+            }
+
+            .right
+            {
+                flex-direction: column;
+                justify-content: flex-start;
+                flex-grow: 1;
+
+                .btn
+                {
+                    margin-top: 0;
+                    padding: 0.75rem 2rem;
+            
+                }
+            }
         }
     }
 }
