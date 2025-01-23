@@ -302,6 +302,18 @@ header
     }
 }
 
+.card
+{
+    flex-direction: column;
+    gap: 1.5rem;
+
+
+    h3
+    {
+        font-size: 18px;
+    }
+}
+
 .partner-img
 {
     padding-top: 10rem;
@@ -340,31 +352,40 @@ header
 /* region Footer */
 footer
 {
+    background-color: var(--dp-var-bg);
+    margin-top: 10rem;
+
     .container-big
     {
         justify-content: space-between;
+        padding: 3rem 0;
+
+        h4
+        {
+            color: var(--dp-var-bg-light);
+        }
     }
 
     ul
     {
         list-style: none;
+        padding-top: 1.5rem;
     }
 
     li
     {
         color: white;
+        padding-bottom: 0.5rem;
     }
-}
 
-.card
-{
-    flex-direction: column;
-    gap: 1.5rem;
+    hr{
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
 
-
-    h3
+    .language
     {
-        font-size: 18px;
+        color: var(--dp-var-bg-light);
     }
 }
 /* endregion Footer */
